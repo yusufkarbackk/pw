@@ -26,7 +26,7 @@
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#top-cars">Top Cars</a>
           <a class="nav-link" href="#contact-us">Contact Us</a>
-          <a href="{{url_for('login')}}">
+          <a href="{{url_for('auth.login')}}">
             <button type="button" class="btn btn-success">Login</button>
           </a>
         </div>
@@ -41,7 +41,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{url_for('static', filename='carousel_car1.jpeg')}}" class="d-block w-100" alt="...">
+          <img src="{{url_for('static', filename='images/carousel_car1.jpeg')}}" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="carousel-caption">Find Your Dream Car Here!</h2>
           </div>
@@ -86,7 +86,7 @@
       <div class="row justify-content-center">
         <div class="col-4">
           <div class="card">
-            <img src="{{url_for('static', filename='carousel_car1.jpeg')}}" class="card-img-top" alt="...">
+            <img src="{{url_for('static', filename='images/carousel_car1.jpeg')}}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Mustang</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maiores hic
